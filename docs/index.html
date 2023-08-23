@@ -1,11 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Foliage</title>
-</head>
+<html>
+
 <body>
-  This is a website.
+  <div class="menu">
+    <a href="#about">About</a>
+    <a href="#how-it-works">How it Works</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="main-content">
+    <h1>Foliage</h1>
+    <h2>Fixed-point Oriented Programming</h2>
+    <div id="animation">
+      <canvas id="canvas" width="600" height="200" >
+        Your browser does not support the HTML5 canvas tag.
+      </canvas>
+    </div>
+    <section id="about">
+      <h3>About Foliage</h3>
+      <p>Introducing a new programming language paradigm called "fixed-point oriented programming". This new kind of
+        programming is based on computing mathematical fixed-points over lattice-ordered domains.</p>
+    </section>
+    <section id="how-it-works">
+      <h3>How it Works</h3>
+      <p>This allows you to write fixed-point style algorithms as a system of rules, which is a much more concise,
+        understandable, and modular style of implementation as compared to iterative or recursive styles.</p>
+    </section>
+  </div>
 </body>
+
+<head>
+  <title>Foliage - Fixed-point oriented programming</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script src="main.js"></script>
+</head>
+
 </html>
